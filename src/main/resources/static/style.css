@@ -1,0 +1,30 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+#rover{
+    position: absolute;
+    width: 150px;
+    transition: all 350ms linear;
+}
+.rock{
+    position: absolute;
+    width: 150px;
+    margin-top: 5px;
+}
+
+#control-panel{
+    position: absolute;
+    z-index: 10;
+    background: black;
+    padding: 10px;
+    border-radius: 20px;
+    opacity: 0.7;
+    bottom: 30px;
+    left: calc(50%);
+}
+#control-panel .btn-control{
+    width: 80px;
+    cursor: pointer;
+
+}
